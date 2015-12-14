@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TopDownBluePrint.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DF43AADB-C728-4CBF-BF50-EC6C8751B928}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDownBluePrint.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TopDownBluePrintEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A376B0DD-9015-491B-A6AB-5F0D63983618}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TopDownBluePrint">
+      <UniqueIdentifier>{55C1D712-7720-4545-82C2-123ECEEF146F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDownBluePrint\TopDownBluePrint.Build.cs">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TopDownBluePrint\TopDownBluePrint.cpp">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownBluePrint\TopDownBluePrint.h">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownBluePrint\TopDownBluePrintCharacter.cpp">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownBluePrint\TopDownBluePrintCharacter.h">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownBluePrint\TopDownBluePrintGameMode.cpp">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownBluePrint\TopDownBluePrintGameMode.h">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownBluePrint\TopDownBluePrintPlayerController.cpp">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownBluePrint\TopDownBluePrintPlayerController.h">
+      <Filter>Source\TopDownBluePrint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TopDownBluePrint\Levels">
+      <UniqueIdentifier>{f2423373-24b1-47fa-9afe-a0c540af0d55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source\TopDownBluePrint\Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Room.h">
+      <Filter>Source\TopDownBluePrint\Levels</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
